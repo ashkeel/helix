@@ -21,28 +21,30 @@
 - [x] Delete Custom Reward
 - [x] Get Custom Reward
 - [ ] Get Custom Reward Redemption
-- [ ] Update Custom Reward
+- [x] Update Custom Reward
 - [ ] Update Redemption Status
 - [x] Get Channel Information
 - [x] Modify Channel Information
 - [x] Get Channel Editors
-- [ ] Get Charity Campaign
-- [ ] Get Chatters
+- [x] Get Charity Campaign
+- [x] Get Charity Donations
+- [x] Get Chatters
 - [x] Get Channel Emotes
 - [x] Get Global Emotes
 - [x] Get Emote Sets
 - [x] Get Channel Chat Badges
 - [x] Get Global Chat Badges
 - [x] Get Chat Settings
-- [ ] Update Chat Settings
-- [ ] Send Chat Announcement
-- [ ] Get User Chat Color
-- [ ] Update User Chat Color
+- [x] Update Chat Settings
+- [x] Send Chat Announcement
+- [ ] Send a Shoutout
+- [x] Get User Chat Color
+- [x] Update User Chat Color
 - [x] Create Clip
 - [x] Get Clips
 - [x] Get Code Status
 - [x] Get Drops Entitlements
-- [ ] Update Drops Entitlements
+- [x] Update Drops Entitlements
 - [x] Create Entitlement Grants Upload URL
 - [x] Redeem Code
 - [x] Create EventSub Subscription
@@ -62,13 +64,12 @@
 - [ ] Update Extension Bits Product
 - [x] Get Top Games
 - [x] Get Games
-- [ ] Get Creator Goals
+- [x] Get Creator Goals
 - [x] Get Hype Train Events
 - [ ] Check AutoMod Status
 - [x] Manage Held AutoMod Messages
 - [ ] Get AutoMod Settings
 - [ ] Update AutoMod Settings
-- [ ] Get Banned Events
 - [x] Get Banned Users
 - [x] Ban User
 - [x] Unban User
@@ -77,11 +78,13 @@
 - [x] Remove Blocked Term
 - [x] Delete Chat Messages
 - [x] Get Moderators
-- [ ] Get Moderator Events
+- [ ] Add Channel Moderator
 - [ ] Remove Channel Moderator
-- [ ] Get VIPs
-- [ ] Add Channel VIP
-- [ ] Remove Channel VIP
+- [x] Get VIPs
+- [x] Add Channel VIP
+- [x] Remove Channel VIP
+- [ ] Update Shield Mode Status
+- [ ] Get Shield Mode Status
 - [ ] Get Soundtrack Current Track
 - [ ] Get Soundtrack Playlist
 - [ ] Get Soundtrack Playlists
@@ -91,26 +94,23 @@
 - [x] Get Predictions
 - [x] Create Prediction
 - [x] End Prediction
-- [ ] Start a raid
-- [ ] Cancel a raid
+- [x] Start a raid
+- [x] Cancel a raid
 - [ ] Get Channel Stream Schedule
 - [ ] Get Channel iCalendar
 - [ ] Update Channel Stream Schedule
 - [ ] Create Channel Stream Schedule Segment
 - [ ] Update Channel Stream Schedule Segment
 - [ ] Delete Channel Stream Schedule Segment
-- [ ] Search Categories
+- [x] Search Categories
 - [ ] Search Channels
-- [ ] Get Stream Key
+- [x] Get Stream Key
 - [x] Get Streams
 - [x] Get Followed Streams
 - [x] Create Stream Marker
 - [x] Get Stream Markers
 - [x] Get Broadcaster Subscriptions
 - [x] Check User Subscription
-- [ ] Get All Stream Tags
-- [ ] Get Stream Tags
-- [ ] Replace Stream Tags
 - [ ] Get Channel Teams
 - [ ] Get Teams
 - [x] Get Users
@@ -124,5 +124,5 @@
 - [ ] Update User Extensions
 - [x] Get Videos
 - [x] Delete Videos
-- [ ] Send Whisper
+- [x] Send Whisper
 - [x] Get Webhook Subscriptions

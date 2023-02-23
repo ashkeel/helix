@@ -46,8 +46,8 @@ func (c *Client) GetBannedUsers(params *BannedUsersParams) (*BannedUsersResponse
 }
 
 type BanUserParams struct {
-	BroadcasterID string             `json:"broadcaster_id"`
-	ModeratorId   string             `json:"moderator_id"`
+	BroadcasterID string             `query:"broadcaster_id"`
+	ModeratorId   string             `query:"moderator_id"`
 	Body          BanUserRequestBody `json:"data"`
 }
 
@@ -90,9 +90,9 @@ func (c *Client) BanUser(params *BanUserParams) (*BanUserResponse, error) {
 }
 
 type UnbanUserParams struct {
-	BroadcasterID string `json:"broadcaster_id"`
-	ModeratorID   string `json:"moderator_id"`
-	UserID        string `json:"user_id"`
+	BroadcasterID string `query:"broadcaster_id"`
+	ModeratorID   string `query:"moderator_id"`
+	UserID        string `query:"user_id"`
 }
 
 type UnbanUserResponse struct {
@@ -329,7 +329,7 @@ func (c *Client) GetModerators(params *GetModeratorsParams) (*ModeratorsResponse
 	if err != nil {
 		return nil, err
 	}
-  
+
 	moderators := &ModeratorsResponse{}
 	resp.HydrateResponseCommon(&moderators.ResponseCommon)
 	moderators.Data.Moderators = resp.Data.(*ManyModerators).Moderators
